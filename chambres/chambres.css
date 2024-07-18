@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+* {
+    background-color: #8e8482;
+    color: #e2e0d1;
+    text-decoration: underline; 
+    text-transform: uppercase;
+}
+.titre{
+    font-family: 'Playerwrite';
+    display:flex; 
+    position: absolute;
+    top: 10px;
+    justify-content: center;
+}
+body {
+    font-size: 20px;
+    justify-content: center;
+    display: flex; 
+    font-family: 'Playwrite MX'; 
+    align-items:center;
+    text-align: center;
+
+}
+.photos-section{
+    height: 300px;
+    width: 300px;
+    gap: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    position: absolute; 
+    top: 150px;
+    left: 260px;
+    animation: scroll 15s linear infinite; 
+}
+@keyframes scroll {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-100%);}
+}
+
+.photos {
+    height: 300px; 
+    width: 300px;
+    display: flex; 
+    justify-content: center;
+    margin: 190px;
+    margin-left: 30px;
+    gap: 30px;
+    position: absolute;
+    top: 300px;
+    animation: scroll 15s linear infinite;   
+}
+
+.réservation{
+    display: flex; 
+    justify-content: center;
+    position: absolute;
+    top: 890px;
+}

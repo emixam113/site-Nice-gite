@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+
+*{
+    background-color:#7a7e68 ;
+}
+
+.titre-principal{
+    font-family: 'Playwrite MX';
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #e2e0d1;
+    text-decoration: underline;
+}
+
+
+.img-1{
+    display: flex; 
+    position: absolute; 
+    border-radius: 60px;
+    width: 600px;
+    height: 600px;
+    animation: fade-in 5s ease-in-out;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.img-2{
+    display: flex; 
+    position: absolute;
+    left: 1250px;
+    border-radius: 50px;
+    animation: fade-in 5s ease-in-out;
+}
+
+@keyframes fade-in{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.présentation{
+   display: flex;
+   justify-content: center;
+   text-transform: capitalize;
+   color:#e2e0d1; 
+   font-family:"Playwrite MX";
+   text-decoration: underline
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    position: flex; 
+    color: #8e8482;
+}
+ul{
+    list-style: none;
+    display: flex; 
+    gap: 20px;
+    position: absolute; 
+    top: 20px;
+    right: 180px;
+    
+}
+
+p{
+    color: #fff;
+    width: 600px;
+    align-items:center;
+    display: flex;
+    font-family: "Inknut Antiqua";
+    text-justify: justify;
+    align-content: center;
+    position: absolute;
+    left: 650px;
+    animation:slidein 5s
+}
+@keyframes slidein{
+    from{
+        margin-left: 100%;
+        width: 700%;
+    }
+    to{
+        margin-left: 0%;
+        width: 500%;
+    }
+}
