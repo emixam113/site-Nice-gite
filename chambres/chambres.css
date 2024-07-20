@@ -56,4 +56,7 @@ body {
     justify-content: center;
     position: absolute;
     top: 890px;
+    text-decoration: underline; 
+    font-size: 12px;
+    cursor: pointer; 
 }
