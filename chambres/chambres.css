@@ -5,6 +5,8 @@
     color: #e2e0d1;
     text-decoration: underline; 
     text-transform: uppercase;
+    scroll-behavior: smooth;
+    
 }
 .titre{
     font-family: 'Playerwrite';
