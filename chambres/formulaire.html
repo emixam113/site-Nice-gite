@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="formulaire.css"
-    
+    <link rel="stylesheet" href="formulaire.css">
+    <title>Formulaire pour réservation</title>
 </head>
 <body>
-    <h1 class="titre">Formulaire de Pré-Réservation</h1>
+    <h1 class="titre"> formulaire de Réservation</h1>
 
-<form class="réservation">
-    <form class="formulaire">
-        <label for="nom">Nom</label>
-        <input type="text" name="nom" id="nom">
-        <label for="prenom">Prénom</label>
-        <input type="text" name="prenom" id="prenom">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-        <label for="date">Date</label>
-        <input type="date" name="date" id="date">
-    </form>
-</form>
-   <input type="submit">
-</div>
-    
+    <div class="formulaire">
+      <form label="name">Nom</form>
+      <input type="text">
+      <form label="fistname">Prénom</form>
+      <input type="text">
+      <form label="email">Email</form>
+      <input type="email">
+      <form label="date">Date de Réservation</form>
+      <input type="date"> au <input type="date">
+      <button class="réservation">Réservation</button>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="formulaire.js"></script>
 </body>
 </html>

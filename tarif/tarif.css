@@ -3,8 +3,8 @@
 
 body{
     background-color: #e2e0d1;
-    font-family: "Playwrite MX";
-    color: #819765;
+    color: #7a7e68;
+    font-family: "Playwrite MX"
 }
 
 .familiale{
@@ -12,13 +12,14 @@ body{
 }
 
 .proposition{
-    border: 1px solid
+    border: 1px solid;
 }
 
 .tarif-frame-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: "Playwrite MX";
   }
   
   .tarif-frame {
@@ -55,3 +56,14 @@ body{
   ul{
     list-style-type: none;
   }
+
+nav{
+  display: flex; 
+  position: absolute; 
+  right: 230px;
+  top: 100px;
+  gap: 10px;
+};
+.envoyer{
+
+}

@@ -3,6 +3,7 @@
 
 *{
     background-color:#7a7e68 ;
+    scroll-behavior: smooth; 
 }
 
 .titre-principal{
@@ -13,7 +14,6 @@
     color: #e2e0d1;
     text-decoration: underline;
 }
-
 
 .img-1{
     display: flex; 
@@ -32,8 +32,6 @@
         opacity: 1;
     }
 }
-
-
 
 .img-2{
     display: flex; 
@@ -66,6 +64,7 @@
     display: flex;
     justify-content: center;
     position: flex; 
+    font-family:"Inknut Antiqua";
     color: #8e8482;
 }
 ul{
@@ -100,3 +99,31 @@ p{
         width: 500%;
     }
 }
+
+@media (width: 1920px) and (height: 1080px) {
+    .img {
+        justify-content: space-between; /* Ajuste l'espacement entre les images */
+    }
+
+    .img-1, .img-2 {
+        width: 48%; /* Ajuste la largeur des images pour s'adapter à l'écran */
+        transition: transform 0.3s; /* Ajoute une transition douce */
+    }
+
+    .img-1:hover, .img-2:hover {
+        transform: scale(1.05); /* Agrandit légèrement l'image au survol */
+    }
+}
+.contact{
+    align-items: center;
+    color:  #fff;
+    font-size: 20px;
+    font-family: "Playwrite MX";
+    position: absolute;
+    top: 720px;
+    left: 820px; 
+    display: flex;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+};
