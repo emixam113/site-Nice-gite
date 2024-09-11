@@ -78,6 +78,7 @@ ul{
 }
 
 p{
+    background-color: rgba(0,0,0,0);
     color: #fff;
     width: 600px;
     align-items:center;

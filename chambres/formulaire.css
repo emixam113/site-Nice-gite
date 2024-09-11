@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
 
 *{
-   background-color: #7a7e68;
+   background-color:#8e8482; 
+   padding: 20px; 
+   font-family: "InknutAntiqua";
 }
 .titre{
     font-family: 'Playwrite MX'; 
