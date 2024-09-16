@@ -57,13 +57,3 @@ body{
     list-style-type: none;
   }
 
-nav{
-  display: flex; 
-  position: absolute; 
-  right: 230px;
-  top: 100px;
-  gap: 10px;
-};
-.envoyer{
-
-}
