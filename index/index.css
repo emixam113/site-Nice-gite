@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #7b8470;
+    color:#f0ebe1;
 }
 
 .titre-principal{
@@ -27,16 +28,16 @@ img{
 }
 li{
     list-style: none;
-    display: flex; 
-    
-
+}
+.navigation ul{
+    display: flex;
+    gap:20px;
 }
 .navigation{
-    position: absolute; 
-    top: 0;
-    right: 120px;
-    display: flex; 
-    
+    font-family: "Inknut Antiqua";
+    position: absolute;
+    top: 20px;
+    right: 500px;
 }
 
 .présentation{
@@ -66,6 +67,6 @@ li{
     }
     to {
         margin-left: 0px;
-
+        opacity: 100%;
     }
 }
