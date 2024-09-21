@@ -15,12 +15,9 @@ body{
     text-decoration: underline; 
 }
 
-.images{
-    display: flex; 
-    justify-content: space-between;
-    position: relative; 
-    margin: 0; 
-    padding: 0;
+.images{ 
+    display: flex;
+    gap: 700px;
 }
 img{
     border-radius: 60px;
@@ -49,47 +46,18 @@ li{
 }
 .text-1{
     position: absolute;
-    display: flex; 
-    right: 600px;
+    display: flex;
+    font-size: 20px;
+    left: 575px;
     top: 200px;
     width: 700px;
     font-family: "Inknut Antiqua"; 
+    animation-duration: 8s;
     animation-name: slidein;
-    animation-duration: 5s;
     color: #f0ebe1;
 }
-
-/* média query pour les écrans  */
-@media (min-width: 1024px){
-
-    .header{
-        padding: 30px;
-        text-align: center; 
+@keyframes slidein{
+    from {
+        margin-left: 200%
     }
-    .titre-principal{
-        font-size: 3rem;
-
-    }
-    .image img{
-        max-width: 45%;
-        height: auto;
-    }
-    .navigation ul{
-        display: flex;
-        justify-content: center; 
-        padding: 0;
-        margin: 0; 
-        list-style: none;
-    }
-    .navigation li{
-        margin: 0 20px;
-    }
-    section{
-        padding: 40px;
-    }
-    .présentation{
-        font-size: 2em; 
-        line-height: 1.5;
-    }
-
 }
