@@ -41,13 +41,12 @@ li{
 }
 .navigation ul{
     display: flex;
-    gap:20px;
+    gap:10px;
 }
 .navigation{
     font-family: "Inknut Antiqua";
     position: absolute;
     top: 20px;
-    right: 100px;
     cursor: pointer;
 }
 
@@ -88,22 +87,23 @@ li{
         align-items: center;
     }
 }
-@media screen and (min-width:360px){
+@media screen and (min-width:375px){
     .navigation{
         left: 340px
     }
+    .text-1{
+        left: 100px;
+    }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     .navigation{
-        left: 600px;
+        left: 797px;
     }
     .text-1{
-        left: 230px;
+        left: 330px;
     }
 }
-
-
 @media screen and (min-width: 1080px) {
     .navigation {
         position: absolute; 
@@ -114,7 +114,7 @@ li{
     }
     .text-1 {
         position: absolute; 
-        left: 450px;
-        width: 500px;
+        left: 500px;
+        width: 480px;
     }
 }
