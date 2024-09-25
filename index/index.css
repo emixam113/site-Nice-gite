@@ -17,12 +17,25 @@ body{
 
 .images{ 
     display: flex;
-    gap: 700px;
+    gap: 650px;
+    justify-content: space-around;
+    animation-name: fade-in; 
+    animation-duration: 8s; 
 }
+@keyframes fade-in {
+    from{
+        opacity: 0; 
+    }
+    to{
+        opacity: 1;
+    }
+}
+
 img{
     border-radius: 60px;
     width: 30%;
 }
+
 li{
     list-style: none;
 }
@@ -35,6 +48,7 @@ li{
     position: absolute;
     top: 20px;
     right: 100px;
+    cursor: pointer;
 }
 
 .présentation{
@@ -48,16 +62,47 @@ li{
     position: absolute;
     display: flex;
     font-size: 20px;
-    left: 575px;
+    left:200px;
     top: 200px;
     width: 700px;
     font-family: "Inknut Antiqua"; 
-    animation-duration: 8s;
+    animation-duration: 5s;
     animation-name: slidein;
     color: #f0ebe1;
 }
 @keyframes slidein{
     from {
-        margin-left: 200%
+        left: 900px;
+    }
+
+}
+@media screen and (min-width: 1001px) {
+    .text-1 {
+        left: 540px;
+        width: 600px;
+    }
+}
+
+@media screen and (width: 1280px) {
+    .text-1 {
+        position: relative; 
+        top: 10px;
+        bottom: 10px;
+        left: 400px;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .navigation {
+        position: absolute; 
+        left: 1200px;
+    }
+    .images {
+        gap: 500px;
+    }
+    .text-1 {
+        position: absolute; 
+        left: 700px;
+        width: 480px;
     }
 }
