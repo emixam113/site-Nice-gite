@@ -76,33 +76,45 @@ li{
     }
 
 }
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 400px) {
     .text-1 {
-        left: 540px;
+        left: 140px;
         width: 600px;
+    }
+    .navigation{
+        left: 540px;
+    }
+    .présentation{
+        align-items: center;
+    }
+}
+@media screen and (min-width:360px){
+    .navigation{
+        left: 340px
     }
 }
 
-@media screen and (width: 1280px) {
-    .text-1 {
-        position: relative; 
-        top: 10px;
-        bottom: 10px;
-        left: 400px;
+@media screen and (min-width: 800px) {
+    .navigation{
+        left: 600px;
+    }
+    .text-1{
+        left: 230px;
     }
 }
+
 
 @media screen and (min-width: 1080px) {
     .navigation {
         position: absolute; 
-        left: 1200px;
+        left: 970px;
     }
     .images {
         gap: 500px;
     }
     .text-1 {
         position: absolute; 
-        left: 700px;
-        width: 480px;
+        left: 450px;
+        width: 500px;
     }
 }
