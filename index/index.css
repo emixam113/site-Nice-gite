@@ -98,23 +98,23 @@ li{
 
 @media screen and (min-width: 768px) {
     .navigation{
-        left: 797px;
+        left: 590px;
     }
     .text-1{
         left: 330px;
     }
 }
-@media screen and (min-width: 1080px) {
+@media screen and (min-width: 1920px) {
     .navigation {
         position: absolute; 
-        left: 970px;
+        left: 1200px;
     }
     .images {
         gap: 500px;
     }
     .text-1 {
         position: absolute; 
-        left: 500px;
-        width: 480px;
+        left: 700px;
+        width: 600px;
     }
 }
